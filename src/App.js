@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import ClassComp from "./ClassComp"
+import Counter from "./Components/Counter"
+import Styling from "./Components/Styling/Styling"
+import FuncComponent from "./FuncComponent"
 
-function App() {
-  return (
+const App = () => {
+  const list = ['apple', 'mango', 'orange']
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h2>Welcome to React</h2>
+      <FuncComponent title="Reactjs" fruitsList={list} />
+      <ClassComp title="Reactjs" /> */}
+      <Counter />
+      <Styling />
     </div>
-  );
+  )
 }
-
-export default App;
+export default App

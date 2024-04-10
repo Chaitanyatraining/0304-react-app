@@ -1,0 +1,10 @@
+- folder structure
+- Components and types
+- JSX and virtual DOM
+    - diffing algorithm and reconcilitation
+    - babel
+- Props(properties)
+
+- state
+- difference b/w functional and class Components
+
