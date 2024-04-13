@@ -24,6 +24,9 @@ const Header = () => {
           <Link to='/counter' class="nav-link" href="#">Counter</Link>
         </li>
         <li class="nav-item">
+          <Link to='/contactus' class="nav-link" href="#">Contact Us</Link>
+        </li>
+        <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>
