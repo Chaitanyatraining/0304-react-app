@@ -12,8 +12,6 @@ class ContactUs extends Component {
         phoneErr: ''
     }
 
-
-
     handleChange = (e) => {
         this.setState({[e.target.name]: e.target.value })
     }
