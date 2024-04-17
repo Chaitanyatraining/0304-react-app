@@ -30,6 +30,9 @@ const Header = () => {
                 <Link to='/userslist' class="nav-link" href="#">UsersList</Link>
               </li>
               <li class="nav-item">
+                <Link to='/pagination' class="nav-link" href="#">Pagination</Link>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
               </li>
             </ul>

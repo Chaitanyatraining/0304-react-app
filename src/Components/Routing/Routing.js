@@ -5,6 +5,7 @@ import Counter from '../Counter'
 import Home from '../Home'
 import ContactUs from '../ContactUs'
 import UsersList from '../UsersList'
+import Pagination from '../Pagination'
 
 const Routing = () => {
   return (
@@ -13,6 +14,7 @@ const Routing = () => {
             <Route path='/listandkeys' element={<ListsandKeys />} />
             <Route path='/counter' element={<Counter />} />
             <Route path='/userslist' element={<UsersList />} />
+            <Route path='/pagination' element={<Pagination />} />
             <Route path='/contactus' element={<ContactUs />} />
     </Routes>
   )
