@@ -33,6 +33,12 @@ const Header = () => {
                 <Link to='/pagination' class="nav-link" href="#">Pagination</Link>
               </li>
               <li class="nav-item">
+                <Link to='/useStatehook' class="nav-link" href="#">UseStateHook</Link>
+              </li>
+              <li class="nav-item">
+                <Link to='/useeffecthook' class="nav-link" href="#">UseEffectHook</Link>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
               </li>
             </ul>

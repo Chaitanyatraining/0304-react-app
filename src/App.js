@@ -1,5 +1,6 @@
 import ClassComp from "./ClassComp"
 import Counter from "./Components/Counter"
+import CounterUnmount from "./Components/CounterUnmount"
 import Header from "./Components/Header"
 import ListsandKeys from "./Components/ListsandKeys"
 import Routing from "./Components/Routing/Routing"
@@ -17,6 +18,7 @@ const App = () => {
       <Styling /> */}
       {/* <ListsandKeys /> */}
       <Header />
+      {/* <CounterUnmount /> */}
       <Routing />
     </div>
   )
