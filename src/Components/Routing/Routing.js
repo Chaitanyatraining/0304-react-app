@@ -8,6 +8,9 @@ import UsersList from '../UsersList'
 import Pagination from '../Pagination'
 import UseStateHook from '../Hooks/UseStateHook'
 import UseEffectHook from '../Hooks/UseEffectHook'
+import UseContextHook from '../Hooks/UseContextHook'
+import UseRefHook from '../Hooks/UseRefHook'
+import UseReducerHook from '../Hooks/UseReducerHook'
 
 const Routing = () => {
   return (
@@ -19,6 +22,9 @@ const Routing = () => {
             <Route path='/pagination' element={<Pagination />} />
             <Route path='/useStatehook' element={<UseStateHook />} />
             <Route path='/useeffecthook' element={<UseEffectHook />} />
+            <Route path='/usecontexthook' element={<UseContextHook />} />
+            <Route path='/userefhook' element={<UseRefHook />} />
+            <Route path='/usereducerhook' element={<UseReducerHook />} />
             <Route path='/contactus' element={<ContactUs />} />
     </Routes>
   )

@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
+import UseEffectHook from './UseEffectHook'
 
 const UseStateHook = () => {
     const [count, setCount] = useState(0)
     const [users, setUsers] = useState([])
     const [products, setproducts] = useState({})
     const [active, setActive] = useState(false)
+
     // always call the hooks at the top level
     // we should not call hooks inside loops, functions, conditions
 
